@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.57pt" height="49.07pt" viewBox="0 0 24.57 49.07" version="1.1">
+<defs>
+<clipPath id="clip1">
+  <path d="M 0 0 L 24.570313 0 L 24.570313 49 L 0 49 Z M 0 0 "/>
+</clipPath>
+<clipPath id="clip2">
+  <path d="M 0 49.070313 C 24.53125 42.171875 0.175781 3.382813 24.539063 0.015625 C 24.152344 0.0078125 23.773438 0.00390625 23.402344 0.00390625 C -7.382813 0.00390625 12.652344 33.21875 0 49.070313 "/>
+</clipPath>
+<clipPath id="clip3">
+  <path d="M 0 49.070313 C 24.53125 42.171875 0.175781 3.382813 24.539063 0.015625 C 24.152344 0.0078125 23.773438 0.00390625 23.402344 0.00390625 C -7.382813 0.00390625 12.652344 33.21875 0 49.070313 "/>
+</clipPath>
+<clipPath id="clip4">
+  <path d="M -1.855469 7.914063 L -10.785156 46.582031 L 23.355469 54.460938 L 32.28125 15.796875 Z M 1.246094 -5.519531 L -1.855469 7.914063 L 32.28125 15.796875 L 35.382813 2.359375 Z M 1.246094 -5.519531 "/>
+</clipPath>
+<image id="image5" width="123" height="246" xlink:href="data:image/png;base64,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"/>
+<clipPath id="clip5">
+  <path d="M 14 11 L 24.570313 11 L 24.570313 29 L 14 29 Z M 14 11 "/>
+</clipPath>
+<clipPath id="clip6">
+  <path d="M 13.675781 21.886719 C 13.613281 24.199219 13.636719 26.585938 13.617188 28.96875 C 19.941406 27.300781 24.347656 22.703125 24.566406 11.03125 C 23.265625 18.125 19.105469 20.898438 13.675781 21.886719 "/>
+</clipPath>
+<clipPath id="clip7">
+  <path d="M 13.675781 21.886719 C 13.613281 24.199219 13.636719 26.585938 13.617188 28.96875 C 19.941406 27.300781 24.347656 22.703125 24.566406 11.03125 C 23.265625 18.125 19.105469 20.898438 13.675781 21.886719 "/>
+</clipPath>
+<clipPath id="clip8">
+  <path d="M 23.957031 8.488281 L 15.050781 10.707031 L 19.894531 30.144531 L 28.800781 27.921875 Z M 15.050781 10.707031 L 9.398438 12.117188 L 14.242188 31.550781 L 19.894531 30.144531 Z M 15.050781 10.707031 "/>
+</clipPath>
+<image id="image8" width="110" height="179" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAACzCAIAAADnmb5dAAAABmJLR0QA/wD/AP+gvaeTAAADYklEQVR4nO2dwXEbQRADx07EL+efh5OSHyq7KIoSySNuF42ZDmDrqgeFe+LHn1+/i8ZbvYneUT7yU/EaEs01LuirUs6ofInLaPNUqopSDk+lhDOu0VTlGYzK41xFG6bStigLp1LCSdfoqPIkRuVBPkebpNK5KIulUsJ512in8jxG5RFuRhuj0rwoC6RSwqnX6KXyVEbl03wVbYZK/6IsikoJZ1+jkcqzGZXP8U20ASoRRVkIlRIWXKOLygWMyif4PtruKilFWf4qJay5RguVaxiVj3I32tYqQUVZ5iolLLtGvspljMqHeCTavipZRVnOKiWsvEa4ypWMyvs8GG1TlbiiLFuVEhZfI1nlYkblHR6PtqNKYlGWp0oJ668Rq3I9o/I7noq2nUpoUZahSglbrpGpcguj8kuejbaXSm5RlptKCbuuEahyF6PyNgeibaQSXZRlpVLCxmukqdzIqLzBsWi7qKQXZfmolLD3GlEq9zIqrzkcbQuVAUVZJiolbL9GjsrtjMoPvBLt/SozirIcVEpwuEaISgdGpYzNKq2K8sVPSUilyTUSVJowKmXsVJlUlBWQSp9r4FX6MCplbFMZVpRFT6XRNegqrRiVMvaozCvKQqfS6BpVhVZpxduoFLJBZWRRFjeVRtf4B1WlFe93HZUyVqtMLcqCptLoGhcgVVoxS8x6lqoMLsoiptLoGh/hqbSCPWptyzqV2UVZuFQaXeMTMJVWsEetnVmkMr4oi5VKo2vcgqTSCvaotTntVLJHrSX/HPOirIaplMAetfanl0r2qHWToqxuqZTAHrVG0Egle9S6T1FWq1RKYI9aU+iikj1q3aooq08qJbBHrUG0UMkete5WlNUklRLYo9Ys8lWyR60bFmV1SKUE9qg1jnCV7FHrnkVZ8amUwB61JpKskj1q3bYoKzuVEtij1lBiVbJHrTsXZQWnUgJ71JpLpkr2qHXzoqzUVEpgj1qjCVTJHrWeoqzIVEpgj1rTSVPJHrWeonwnLZUS2KPWAUSpZI9aT1H+JyqVEtij1hnkqNzeEi+pnKK8JCeVEtij1jGEqHRoieMqpyivCEmlhFlidiFBpUlLHFQ5RfmZhFRKmCVmI/AqfVriiMopypvgUylhlpi9YKu0aomnVU5RfgU7lRJUd/0LAUzOp9O85poAAAAASUVORK5CYII="/>
+</defs>
+<g id="surface1">
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<g clip-path="url(#clip2)" clip-rule="nonzero">
+<g clip-path="url(#clip3)" clip-rule="nonzero">
+<g clip-path="url(#clip4)" clip-rule="nonzero">
+<use xlink:href="#image5" transform="matrix(0.2,0,0,-0.2,0,49.07)"/>
+</g>
+</g>
+</g>
+</g>
+<g clip-path="url(#clip5)" clip-rule="nonzero">
+<g clip-path="url(#clip6)" clip-rule="nonzero">
+<g clip-path="url(#clip7)" clip-rule="nonzero">
+<g clip-path="url(#clip8)" clip-rule="nonzero">
+<use xlink:href="#image8" transform="matrix(0.1,0,0,-0.1,13.6,28.97)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
