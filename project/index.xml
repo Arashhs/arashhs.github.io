@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Arash Hajisafi</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://arashhs.github.io/project/</link>
+      <atom:link href="https://arashhs.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Mon, 17 Aug 2020 06:03:21 +0430</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://arashhs.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>https://arashhs.github.io/project/</link>
     </image>
     
     <item>
       <title>JTanks Game</title>
-      <link>/project/jtanks-game/</link>
+      <link>https://arashhs.github.io/project/jtanks-game/</link>
       <pubDate>Mon, 17 Aug 2020 06:03:21 +0430</pubDate>
-      <guid>/project/jtanks-game/</guid>
+      <guid>https://arashhs.github.io/project/jtanks-game/</guid>
       <description>&lt;p&gt;JTanks is a 2D tank game made in java for the final project of my Advanced Programming course written
 at the end of my freshman year at university.&lt;/p&gt;
 &lt;ul&gt;
