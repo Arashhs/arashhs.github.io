@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Arash Hajisafi</title>
-    <link>https://arashhs.github.io/</link>
-      <atom:link href="https://arashhs.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Arash Hajisafi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Tue, 18 Aug 2020 07:25:35 +0430</lastBuildDate>
+    <title>1 | Arash Hajisafi</title>
+    <link>https://arashhs.github.io/tag/1/</link>
+      <atom:link href="https://arashhs.github.io/tag/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Tue, 18 Aug 2020 07:11:04 +0430</lastBuildDate>
     <image>
       <url>https://arashhs.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Arash Hajisafi</title>
-      <link>https://arashhs.github.io/</link>
+      <title>1</title>
+      <link>https://arashhs.github.io/tag/1/</link>
     </image>
-    
-    <item>
-      <title>Modified Arduino FreeRTOS Scheduling</title>
-      <link>https://arashhs.github.io/project/modified-arduino-freertos-scheduling/</link>
-      <pubDate>Tue, 18 Aug 2020 07:25:35 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/modified-arduino-freertos-scheduling/</guid>
-      <description>&lt;p&gt;I have implemented the EDF and FCFS scheduling algorithms in FreeRTOS for Arduino boards as part of my Real-Time and Embedded Systems course assignments.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Modified Xv6 With New Features</title>
@@ -67,16 +58,6 @@ for threads so that each process can have multiple threads&lt;/li&gt;
 &lt;a href=&#34;gif.gif&#34; target=&#34;_blank&#34;&gt;
 &lt;img src=&#34;gif.gif&#34; alt=&#34;NetWolf © Arash Hajisafi&#34;&gt;
 &lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Research Secure Smart Card Based Healthcare System</title>
-      <link>https://arashhs.github.io/project/research-secure-smart-card-based-healthcare-system/</link>
-      <pubDate>Tue, 18 Aug 2020 06:15:43 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/research-secure-smart-card-based-healthcare-system/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Design and Analysis of a Secure Smart-Card-Based Healthcare System&lt;/strong&gt;
-The research consists of 2 main parts, the investigation of smart card architectures and modeling security threats in an Electronic Healthcare System. A functional system architecture has been proposed to address these security threats which specifies a smart-card-based authentication method. The research was conducted in the Spring and Summer of 2020 for my Research Method and Technical Presentation course (which includes both Written and Oral Presentations).&lt;/p&gt;
 </description>
     </item>
     

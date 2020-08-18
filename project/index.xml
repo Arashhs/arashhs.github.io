@@ -5,12 +5,80 @@
     <link>https://arashhs.github.io/project/</link>
       <atom:link href="https://arashhs.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Tue, 18 Aug 2020 03:57:01 +0430</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Tue, 18 Aug 2020 07:25:35 +0430</lastBuildDate>
     <image>
       <url>https://arashhs.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>https://arashhs.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Modified Arduino FreeRTOS Scheduling</title>
+      <link>https://arashhs.github.io/project/modified-arduino-freertos-scheduling/</link>
+      <pubDate>Tue, 18 Aug 2020 07:25:35 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/modified-arduino-freertos-scheduling/</guid>
+      <description>&lt;p&gt;I have implemented the EDF and FCFS scheduling algorithms in FreeRTOS for Arduino boards as part of my Real-Time and Embedded Systems course assignments.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modified Xv6 With New Features</title>
+      <link>https://arashhs.github.io/project/modified-xv6-with-new-features/</link>
+      <pubDate>Tue, 18 Aug 2020 07:11:04 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/modified-xv6-with-new-features/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Implemented a modified version of Xv6&amp;rsquo;s original scheduling algorithm and a modified
+priority-based scheduling algorithm to take both the waiting time and importance of a task
+into account&lt;/li&gt;
+&lt;li&gt;Added system calls to choose the scheduling algorithm in a process, to count the number of
+called system calls in a process, and several more features&lt;/li&gt;
+&lt;li&gt;Added the ability to measure creation time, termination time, sleeping time, ready time, and
+running time of processes to evaluate the performance of the new scheduling algorithms&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Threads and Ticket Lock Implementation in Xv6</title>
+      <link>https://arashhs.github.io/project/threads-and-ticket-lock-implementation-in-xv6/</link>
+      <pubDate>Tue, 18 Aug 2020 06:58:17 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/threads-and-ticket-lock-implementation-in-xv6/</guid>
+      <description>&lt;p&gt;I have implemented threads and ticket lock in Xv6 for the final project of my Operating Systems course&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Modified XV6 process allocation, execution, and termination implementations to add support
+for threads so that each process can have multiple threads&lt;/li&gt;
+&lt;li&gt;Modified scheduling algorithm to schedule threads&lt;/li&gt;
+&lt;li&gt;Added Ticket Lock to the kernel&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NetWolf</title>
+      <link>https://arashhs.github.io/project/netwolf/</link>
+      <pubDate>Tue, 18 Aug 2020 06:27:44 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/netwolf/</guid>
+      <description>&lt;p&gt;NetWolf is a P2P torrent-like network application written in Python for the final project of my Computer Networks Course with the following capabilities:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Discovering clusters and maintaining a cluster list at each node by periodically sending a UDP customized DISCOVERY message&lt;/li&gt;
+&lt;li&gt;Sharing files between nodes by sending a UDP customized GET message (which includes the files name), waiting for the answer, and selecting the best node (fastest response) and then establishing a TCP connection for transmitting the file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Application in action: (Click to open in full size on a new tab)
+&lt;a href=&#34;gif.gif&#34; target=&#34;_blank&#34;&gt;
+&lt;img src=&#34;gif.gif&#34; alt=&#34;NetWolf © Arash Hajisafi&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research Secure Smart Card Based Healthcare System</title>
+      <link>https://arashhs.github.io/project/research-secure-smart-card-based-healthcare-system/</link>
+      <pubDate>Tue, 18 Aug 2020 06:15:43 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/research-secure-smart-card-based-healthcare-system/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Design and Analysis of a Secure Smart-Card-Based Healthcare System&lt;/strong&gt;
+The research consists of 2 main parts, the investigation of smart card architectures and modeling security threats in an Electronic Healthcare System. A functional system architecture has been proposed to address these security threats which specifies a smart-card-based authentication method. The research was conducted in the Spring and Summer of 2020 for my Research Method and Technical Presentation course (which includes both Written and Oral Presentations).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Restaurant Management Database</title>
