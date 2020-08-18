@@ -1,35 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Arash Hajisafi</title>
-    <link>https://arashhs.github.io/project/</link>
-      <atom:link href="https://arashhs.github.io/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Tue, 18 Aug 2020 03:57:01 +0430</lastBuildDate>
+    <title>Java | Arash Hajisafi</title>
+    <link>https://arashhs.github.io/tag/java/</link>
+      <atom:link href="https://arashhs.github.io/tag/java/index.xml" rel="self" type="application/rss+xml" />
+    <description>Java</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Tue, 18 Aug 2020 03:42:44 +0430</lastBuildDate>
     <image>
       <url>https://arashhs.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Projects</title>
-      <link>https://arashhs.github.io/project/</link>
+      <title>Java</title>
+      <link>https://arashhs.github.io/tag/java/</link>
     </image>
-    
-    <item>
-      <title>Restaurant Management Database</title>
-      <link>https://arashhs.github.io/project/restaurant-management-database/</link>
-      <pubDate>Tue, 18 Aug 2020 03:57:01 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/restaurant-management-database/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;A database system for restaurant management using Python Tkinter and MySQL for the final
-project of my Database Design course&lt;/li&gt;
-&lt;li&gt;Applied ER and normalization techniques to design the database and adopted Python to build
-a GUI app to connect with the database and add/delete/edit records and tables, and execute
-queries on the database&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Application in action: (Click to open in full size on a new tab)
-&lt;a href=&#34;featured.gif&#34; target=&#34;_blank&#34;&gt;
-&lt;img src=&#34;featured.gif&#34; alt=&#34;Restaurant Management Database © Arash Hajisafi&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>That&#39;s MyTable V2</title>

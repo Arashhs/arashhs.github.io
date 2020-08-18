@@ -4,6 +4,51 @@
   
   <url>
     <loc>https://arashhs.github.io/</loc>
+    <lastmod>2020-08-18T03:57:01+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arashhs.github.io/project/</loc>
+    <lastmod>2020-08-18T03:57:01+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arashhs.github.io/project/restaurant-management-database/</loc>
+    <lastmod>2020-08-18T03:57:01+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arashhs.github.io/tag/hibernate/</loc>
+    <lastmod>2020-08-18T03:42:44+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arashhs.github.io/tag/java/</loc>
+    <lastmod>2020-08-18T03:42:44+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arashhs.github.io/tag/maven/</loc>
+    <lastmod>2020-08-18T03:42:44+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arashhs.github.io/tag/spring-mvc/</loc>
+    <lastmod>2020-08-18T03:42:44+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arashhs.github.io/tags/</loc>
+    <lastmod>2020-08-18T03:42:44+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arashhs.github.io/project/thats-mytable-v2/</loc>
+    <lastmod>2020-08-18T03:42:44+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arashhs.github.io/tag/buffer-strategy/</loc>
     <lastmod>2020-08-17T06:03:21+04:30</lastmod>
   </url>
   
@@ -13,7 +58,12 @@
   </url>
   
   <url>
-    <loc>https://arashhs.github.io/project/</loc>
+    <loc>https://arashhs.github.io/tag/multi-threading/</loc>
+    <lastmod>2020-08-17T06:03:21+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://arashhs.github.io/tag/network/</loc>
     <lastmod>2020-08-17T06:03:21+04:30</lastmod>
   </url>
   
@@ -43,10 +93,6 @@
   
   <url>
     <loc>https://arashhs.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://arashhs.github.io/tags/</loc>
   </url>
   
 </urlset>
