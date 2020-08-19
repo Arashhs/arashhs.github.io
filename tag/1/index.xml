@@ -19,7 +19,7 @@
       <guid>https://arashhs.github.io/project/threads-and-ticket-lock-implementation-in-xv6/</guid>
       <description>&lt;p&gt;I have implemented threads and ticket lock in Xv6 for the final project of my Operating Systems course&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Modified XV6 process allocation, execution, and termination implementations to add support
+&lt;li&gt;Modified Xv6 process allocation, execution, and termination implementations to add support
 for threads so that each process can have multiple threads&lt;/li&gt;
 &lt;li&gt;Modified scheduling algorithm to schedule threads&lt;/li&gt;
 &lt;li&gt;Added Ticket Lock to the kernel&lt;/li&gt;
