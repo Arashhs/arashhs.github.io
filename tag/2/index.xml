@@ -5,12 +5,268 @@
     <link>https://arashhs.github.io/tag/2/</link>
       <atom:link href="https://arashhs.github.io/tag/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Tue, 18 Aug 2020 07:25:35 +0430</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Wed, 19 Aug 2020 04:16:55 +0430</lastBuildDate>
     <image>
       <url>https://arashhs.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>https://arashhs.github.io/tag/2/</link>
     </image>
+    
+    <item>
+      <title>Voice Gender Detection</title>
+      <link>https://arashhs.github.io/project/voice-gender-detection/</link>
+      <pubDate>Wed, 19 Aug 2020 04:16:55 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/voice-gender-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Search Query Parser</title>
+      <link>https://arashhs.github.io/project/google-search-query-parser/</link>
+      <pubDate>Wed, 19 Aug 2020 03:53:52 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/google-search-query-parser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compiler Project</title>
+      <link>https://arashhs.github.io/project/compiler-project/</link>
+      <pubDate>Wed, 19 Aug 2020 02:29:57 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/compiler-project/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Lexical Analysis, Syntax Analysis, Semantic Analysis, and Intermediate Code Generation
+implemented using JFlex and Bison for my Compiler Design course project for the grammar which is included in the repository&lt;/li&gt;
+&lt;li&gt;Generated code representation is in three address code format&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-to-compile&#34;&gt;How to compile&lt;/h2&gt;
+&lt;p&gt;Make sure that you have set up Bison and Flex properly, then run the following code in terminal:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;bison -L JAVA SHLang.yac -v
+del SHLang.java
+ren SHLang.cac SHLang.java
+javac Yylex.java SHLang.java
+java YYParser
+gcc compiler.c
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Alternatively, you can run the &lt;em&gt;&lt;strong&gt;run.bat&lt;/strong&gt;&lt;/em&gt; file.&lt;/p&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Input&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;Program p1Main;
+	Real n1, n2, n3, n4, n5;
+Begin
+	
+	n1 := #20 - #10 / #2;
+	n2 := n1 / (#3 + #2);
+	n3 := n1 * n2 - #10;	
+	
+	If(n1 .GT. #2) Then Begin
+	
+		For n4:=n2 Downto #0 Do Begin
+			n3 := n3 + #1;
+			n2 := n2 - #1
+		End
+	End Else
+		If(n2 .NE. #3) Then n2 := #80
+
+
+End;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;#include &amp;lt;stdio.h&amp;gt;
+
+int main() {
+	// ////////////////// Symbol Table \\\\\\\\\\\\\\\\\\ \\
+
+	double n1;
+	double n2;
+	double n3;
+	double n4;
+	double n5;
+	int __SHLangTempVar0;
+	int __SHLangTempVar1;
+	int __SHLangTempVar2;
+	int __SHLangTempVar3;
+	int __SHLangTempVar4;
+	double __SHLangTempVar5;
+	int __SHLangTempVar6;
+	int __SHLangTempVar7;
+	int __SHLangTempVar8;
+	double __SHLangTempVar9;
+	double __SHLangTempVar10;
+	double __SHLangTempVar11;
+	int __SHLangTempVar12;
+	double __SHLangTempVar13;
+	double __SHLangTempVar14;
+	int __SHLangTempVar15;
+	int __SHLangTempVar16;
+	int __SHLangTempVar17;
+	int __SHLangTempVar18;
+	double __SHLangTempVar19;
+	double __SHLangTempVar20;
+	int __SHLangTempVar21;
+	double __SHLangTempVar22;
+	double __SHLangTempVar23;
+	int __SHLangConditionVarn4;
+	int __SHLangTempVar24;
+	int __SHLangTempVar25;
+	int __SHLangTempVar26;
+	double __SHLangTempVar27;
+
+	// ////////////////// Quadruples \\\\\\\\\\\\\\\\\\ \\
+
+Line0:		__SHLangTempVar0 = 20;
+Line1:		if (__SHLangTempVar0) goto Line3;
+Line2:		goto Line3;
+Line3:		__SHLangTempVar1 = 10;
+Line4:		if (__SHLangTempVar1) goto Line6;
+Line5:		goto Line6;
+Line6:		__SHLangTempVar2 = 2;
+Line7:		if (__SHLangTempVar2) goto Line9;
+Line8:		goto Line9;
+Line9:		__SHLangTempVar3 = __SHLangTempVar1 / __SHLangTempVar2;
+Line10:		if (__SHLangTempVar3) goto Line12;
+Line11:		goto Line12;
+Line12:		__SHLangTempVar4 = __SHLangTempVar0 - __SHLangTempVar3;
+Line13:		if (__SHLangTempVar4) goto Line15;
+Line14:		goto Line15;
+Line15:		__SHLangTempVar5 = (double) __SHLangTempVar4;
+Line16:		n1 = __SHLangTempVar5;
+Line17:		printf(&amp;quot;%s = %f\n&amp;quot;, &amp;quot;n1&amp;quot;, n1);
+Line18:		goto Line19;
+Line19:		if (n1) goto Line21;
+Line20:		goto Line21;
+Line21:		__SHLangTempVar6 = 3;
+Line22:		if (__SHLangTempVar6) goto Line24;
+Line23:		goto Line24;
+Line24:		__SHLangTempVar7 = 2;
+Line25:		if (__SHLangTempVar7) goto Line27;
+Line26:		goto Line27;
+Line27:		__SHLangTempVar8 = __SHLangTempVar6 + __SHLangTempVar7;
+Line28:		if (__SHLangTempVar8) goto Line30;
+Line29:		goto Line30;
+Line30:		__SHLangTempVar10 = (double) __SHLangTempVar8;
+Line31:		__SHLangTempVar9 = n1 / __SHLangTempVar10;
+Line32:		if (__SHLangTempVar9) goto Line34;
+Line33:		goto Line34;
+Line34:		n2 = __SHLangTempVar9;
+Line35:		printf(&amp;quot;%s = %f\n&amp;quot;, &amp;quot;n2&amp;quot;, n2);
+Line36:		goto Line37;
+Line37:		if (n1) goto Line39;
+Line38:		goto Line39;
+Line39:		if (n2) goto Line41;
+Line40:		goto Line41;
+Line41:		__SHLangTempVar11 = n1 * n2;
+Line42:		if (__SHLangTempVar11) goto Line44;
+Line43:		goto Line44;
+Line44:		__SHLangTempVar12 = 10;
+Line45:		if (__SHLangTempVar12) goto Line47;
+Line46:		goto Line47;
+Line47:		__SHLangTempVar14 = (double) __SHLangTempVar12;
+Line48:		__SHLangTempVar13 = __SHLangTempVar11 - __SHLangTempVar14;
+Line49:		if (__SHLangTempVar13) goto Line51;
+Line50:		goto Line51;
+Line51:		n3 = __SHLangTempVar13;
+Line52:		printf(&amp;quot;%s = %f\n&amp;quot;, &amp;quot;n3&amp;quot;, n3);
+Line53:		goto Line54;
+Line54:		if (n1) goto Line56;
+Line55:		goto Line56;
+Line56:		__SHLangTempVar15 = 2;
+Line57:		if (__SHLangTempVar15) goto Line59;
+Line58:		goto Line59;
+Line59:		__SHLangTempVar16 = n1 &amp;gt; __SHLangTempVar15;
+Line60:		if (__SHLangTempVar16) goto Line62;
+Line61:		goto Line100;
+Line62:		if (n2) goto Line64;
+Line63:		goto Line64;
+Line64:		__SHLangTempVar17 = 0;
+Line65:		if (__SHLangTempVar17) goto Line67;
+Line66:		goto Line67;
+Line67:		goto Line92;
+Line68:		if (n3) goto Line70;
+Line69:		goto Line70;
+Line70:		__SHLangTempVar18 = 1;
+Line71:		if (__SHLangTempVar18) goto Line73;
+Line72:		goto Line73;
+Line73:		__SHLangTempVar20 = (double) __SHLangTempVar18;
+Line74:		__SHLangTempVar19 = n3 + __SHLangTempVar20;
+Line75:		if (__SHLangTempVar19) goto Line77;
+Line76:		goto Line77;
+Line77:		n3 = __SHLangTempVar19;
+Line78:		printf(&amp;quot;%s = %f\n&amp;quot;, &amp;quot;n3&amp;quot;, n3);
+Line79:		goto Line80;
+Line80:		if (n2) goto Line82;
+Line81:		goto Line82;
+Line82:		__SHLangTempVar21 = 1;
+Line83:		if (__SHLangTempVar21) goto Line85;
+Line84:		goto Line85;
+Line85:		__SHLangTempVar23 = (double) __SHLangTempVar21;
+Line86:		__SHLangTempVar22 = n2 - __SHLangTempVar23;
+Line87:		if (__SHLangTempVar22) goto Line89;
+Line88:		goto Line89;
+Line89:		n2 = __SHLangTempVar22;
+Line90:		printf(&amp;quot;%s = %f\n&amp;quot;, &amp;quot;n2&amp;quot;, n2);
+Line91:		goto Line97;
+Line92:		n4 = n2;
+Line93:		__SHLangConditionVarn4 = __SHLangTempVar17 - n4;
+Line94:		__SHLangConditionVarn4 = n4 &amp;gt;= __SHLangTempVar17;
+Line95:		if (__SHLangConditionVarn4) goto Line68;
+Line96:		goto Line115;
+Line97:		n4 = n4 - 1;
+Line98:		goto Line93;
+Line99:		goto Line115;
+Line100:		if (n2) goto Line102;
+Line101:		goto Line102;
+Line102:		__SHLangTempVar24 = 3;
+Line103:		if (__SHLangTempVar24) goto Line105;
+Line104:		goto Line105;
+Line105:		__SHLangTempVar25 = n2 != __SHLangTempVar24;
+Line106:		if (__SHLangTempVar25) goto Line108;
+Line107:		goto Line115;
+Line108:		__SHLangTempVar26 = 80;
+Line109:		if (__SHLangTempVar26) goto Line111;
+Line110:		goto Line111;
+Line111:		__SHLangTempVar27 = (double) __SHLangTempVar26;
+Line112:		n2 = __SHLangTempVar27;
+Line113:		printf(&amp;quot;%s = %f\n&amp;quot;, &amp;quot;n2&amp;quot;, n2);
+Line114:		goto Line115;
+Line115:		printf(&amp;quot;Process is terminated with no error.\n&amp;quot;);
+				getchar();
+				return 0;
+Line116:		printf(&amp;quot;Array Error: Index out of bound!\n&amp;quot;);
+				getchar();
+			return -1;
+Line117:		printf(&amp;quot;Array Error: Invalid array size!\n&amp;quot;);
+				getchar();
+			return -2;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;n1 = 15.000000
+n2 = 3.000000
+n3 = 35.000000
+n3 = 36.000000
+n2 = 2.000000
+n3 = 37.000000
+n2 = 1.000000
+n3 = 38.000000
+n2 = 0.000000
+n3 = 39.000000
+n2 = -1.000000
+Process is terminated with no error.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research Secure Smart Card Based Healthcare System</title>
+      <link>https://arashhs.github.io/project/research-secure-smart-card-based-healthcare-system/</link>
+      <pubDate>Tue, 18 Aug 2020 07:36:43 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/research-secure-smart-card-based-healthcare-system/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Design and Analysis of a Secure Smart-Card-Based Healthcare System&lt;/strong&gt;
+The research consists of 2 main parts, the investigation of smart card architectures and modeling security threats in an Electronic Healthcare System. A functional system architecture has been proposed to address these security threats which specifies a smart-card-based authentication method. The research was conducted in the Spring and Summer of 2020 for my Research Method and Technical Presentation course (which includes both Written and Oral Presentations).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Modified Arduino FreeRTOS Scheduling</title>
@@ -22,12 +278,19 @@
     </item>
     
     <item>
-      <title>Research Secure Smart Card Based Healthcare System</title>
-      <link>https://arashhs.github.io/project/research-secure-smart-card-based-healthcare-system/</link>
-      <pubDate>Tue, 18 Aug 2020 06:15:43 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/research-secure-smart-card-based-healthcare-system/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Design and Analysis of a Secure Smart-Card-Based Healthcare System&lt;/strong&gt;
-The research consists of 2 main parts, the investigation of smart card architectures and modeling security threats in an Electronic Healthcare System. A functional system architecture has been proposed to address these security threats which specifies a smart-card-based authentication method. The research was conducted in the Spring and Summer of 2020 for my Research Method and Technical Presentation course (which includes both Written and Oral Presentations).&lt;/p&gt;
+      <title>Modified Xv6 With New Features</title>
+      <link>https://arashhs.github.io/project/modified-xv6-with-new-features/</link>
+      <pubDate>Tue, 18 Aug 2020 07:11:04 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/modified-xv6-with-new-features/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Implemented a modified version of Xv6&amp;rsquo;s original scheduling algorithm and a modified
+priority-based scheduling algorithm to take both the waiting time and importance of a task
+into account&lt;/li&gt;
+&lt;li&gt;Added system calls to choose the scheduling algorithm in a process, to count the number of
+called system calls in a process, and several more features&lt;/li&gt;
+&lt;li&gt;Added the ability to measure creation time, termination time, sleeping time, ready time, and
+running time of processes to evaluate the performance of the new scheduling algorithms&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

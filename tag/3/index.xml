@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Arash Hajisafi</title>
+    <link>https://arashhs.github.io/tag/3/</link>
+      <atom:link href="https://arashhs.github.io/tag/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Wed, 19 Aug 2020 06:15:02 +0430</lastBuildDate>
+    <image>
+      <url>https://arashhs.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>3</title>
+      <link>https://arashhs.github.io/tag/3/</link>
+    </image>
+    
+    <item>
+      <title>Hangman</title>
+      <link>https://arashhs.github.io/project/hangman/</link>
+      <pubDate>Wed, 19 Aug 2020 06:15:02 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/hangman/</guid>
+      <description>&lt;p&gt;A terminal-based Hangman game written in C for the final project of my Introduction to Programming course in the first semester at university. Having save/load options and many other cool stuff!&lt;/p&gt;
+&lt;p&gt;Here’s some gameplay footage:
+&lt;a href=&#34;gameplay.gif&#34; target=&#34;_blank&#34;&gt;
+&lt;img src=&#34;gameplay.gif&#34; alt=&#34;Hangman © Arash Hajisafi&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simple Image Compressor</title>
+      <link>https://arashhs.github.io/project/simple-image-compressor/</link>
+      <pubDate>Wed, 19 Aug 2020 05:53:59 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/simple-image-compressor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Battleship Game</title>
+      <link>https://arashhs.github.io/project/battleship-game/</link>
+      <pubDate>Wed, 19 Aug 2020 05:26:18 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/battleship-game/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve implemented everyone&amp;rsquo;s favorite Battle Ship Game in Java for my Advanced Programming course. The game supports both single-player and local multiplayer modes and is console-based.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s some gameplay footage: (Click to open in full size on a new tab)
+&lt;a href=&#34;gif.gif&#34; target=&#34;_blank&#34;&gt;
+&lt;img src=&#34;gif.gif&#34; alt=&#34;Battleship © Arash Hajisafi&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Elevator Circuit</title>
+      <link>https://arashhs.github.io/project/elevator-circuit/</link>
+      <pubDate>Wed, 19 Aug 2020 05:00:44 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/elevator-circuit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NUMEX Interpreter</title>
+      <link>https://arashhs.github.io/project/numex-interpreter/</link>
+      <pubDate>Wed, 19 Aug 2020 04:47:57 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/numex-interpreter/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Example Command&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-lisp&#34;&gt;(eval-exp (with &amp;quot;f1&amp;quot; (lam &amp;quot;f1&amp;quot; &amp;quot;a&amp;quot; (with &amp;quot;x&amp;quot; (var &amp;quot;a&amp;quot;) (lam &amp;quot;f2&amp;quot; &amp;quot;z&amp;quot; (plus (var &amp;quot;x&amp;quot;) (num 1)))))
+                               (with &amp;quot;f3&amp;quot; (lam &amp;quot;f3&amp;quot; &amp;quot;f&amp;quot; (with &amp;quot;x&amp;quot; (num 1729) (apply (var &amp;quot;f&amp;quot;) (munit)))) 
+                                     (apply (var &amp;quot;f3&amp;quot;) (apply (var &amp;quot;f1&amp;quot;) (num 1))))))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;(num 2)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Matrix Equation Solver Hardware Implementation</title>
+      <link>https://arashhs.github.io/project/matrix-equation-solver-hardware-implementation/</link>
+      <pubDate>Wed, 19 Aug 2020 04:26:47 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/matrix-equation-solver-hardware-implementation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

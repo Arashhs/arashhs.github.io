@@ -5,29 +5,12 @@
     <link>https://arashhs.github.io/tag/1/</link>
       <atom:link href="https://arashhs.github.io/tag/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Tue, 18 Aug 2020 07:11:04 +0430</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Tue, 18 Aug 2020 06:58:17 +0430</lastBuildDate>
     <image>
       <url>https://arashhs.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>https://arashhs.github.io/tag/1/</link>
     </image>
-    
-    <item>
-      <title>Modified Xv6 With New Features</title>
-      <link>https://arashhs.github.io/project/modified-xv6-with-new-features/</link>
-      <pubDate>Tue, 18 Aug 2020 07:11:04 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/modified-xv6-with-new-features/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Implemented a modified version of Xv6&amp;rsquo;s original scheduling algorithm and a modified
-priority-based scheduling algorithm to take both the waiting time and importance of a task
-into account&lt;/li&gt;
-&lt;li&gt;Added system calls to choose the scheduling algorithm in a process, to count the number of
-called system calls in a process, and several more features&lt;/li&gt;
-&lt;li&gt;Added the ability to measure creation time, termination time, sleeping time, ready time, and
-running time of processes to evaluate the performance of the new scheduling algorithms&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
       <title>Threads and Ticket Lock Implementation in Xv6</title>
@@ -110,6 +93,23 @@ at the end of my freshman year at university.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here&amp;rsquo;s some gameplay footage:
 &lt;img src=&#34;gameplay.gif&#34; alt=&#34;JTanks Gameplay © Arash Hajisafi&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JDM</title>
+      <link>https://arashhs.github.io/project/jdm/</link>
+      <pubDate>Mon, 17 Aug 2020 03:12:21 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/jdm/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;JDM is a GUI Download Manager written in Java.&lt;/li&gt;
+&lt;li&gt;It supports multiple downloads at the same time (with the ability to limit the maximum number of concurrent downloads), blocking downloads from specific domains, and queueing&lt;/li&gt;
+&lt;li&gt;It is the Midterm Project of my Advanced Programming course.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Application in action: (Click to open in full size on a new tab)
+&lt;a href=&#34;gif.gif&#34; target=&#34;_blank&#34;&gt;
+&lt;img src=&#34;gif.gif&#34; alt=&#34;JDM © Arash Hajisafi&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
