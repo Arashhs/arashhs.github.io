@@ -17,7 +17,7 @@
       <link>https://arashhs.github.io/project/hangman/</link>
       <pubDate>Wed, 19 Aug 2020 06:15:02 +0430</pubDate>
       <guid>https://arashhs.github.io/project/hangman/</guid>
-      <description>&lt;p&gt;A terminal-based Hangman game written in C for the final project of my Introduction to Programming course in the first semester at university. Having save/load options and many other cool stuff!&lt;/p&gt;
+      <description>&lt;p&gt;A terminal-based Hangman game written in C for the final project of my Introduction to Programming course in the first semester at university. It has save/load options and many other cool stuff!&lt;/p&gt;
 &lt;p&gt;Here’s some gameplay footage:
 &lt;a href=&#34;gameplay.gif&#34; target=&#34;_blank&#34;&gt;
 &lt;img src=&#34;gameplay.gif&#34; alt=&#34;Hangman © Arash Hajisafi&#34;&gt;
