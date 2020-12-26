@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 | Arash Hajisafi</title>
+    <link>https://arashhs.github.io/tag/4/</link>
+      <atom:link href="https://arashhs.github.io/tag/4/index.xml" rel="self" type="application/rss+xml" />
+    <description>4</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Wed, 19 Aug 2020 05:00:44 +0430</lastBuildDate>
+    <image>
+      <url>https://arashhs.github.io/images/icon_hu66945b6f4b90faf7a26b441f02dee319_707_512x512_fill_lanczos_center_2.png</url>
+      <title>4</title>
+      <link>https://arashhs.github.io/tag/4/</link>
+    </image>
+    
+    <item>
+      <title>Elevator Circuit</title>
+      <link>https://arashhs.github.io/project/elevator-circuit/</link>
+      <pubDate>Wed, 19 Aug 2020 05:00:44 +0430</pubDate>
+      <guid>https://arashhs.github.io/project/elevator-circuit/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

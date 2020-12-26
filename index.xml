@@ -5,12 +5,20 @@
     <link>https://arashhs.github.io/</link>
       <atom:link href="https://arashhs.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Arash Hajisafi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Wed, 19 Aug 2020 06:15:02 +0430</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2020</copyright><lastBuildDate>Sat, 26 Dec 2020 05:49:49 +0330</lastBuildDate>
     <image>
       <url>https://arashhs.github.io/images/icon_hu66945b6f4b90faf7a26b441f02dee319_707_512x512_fill_lanczos_center_2.png</url>
       <title>Arash Hajisafi</title>
       <link>https://arashhs.github.io/</link>
     </image>
+    
+    <item>
+      <title>Computational Intelligence Programming</title>
+      <link>https://arashhs.github.io/project/computational-intelligence-ga-and-es/</link>
+      <pubDate>Sat, 26 Dec 2020 05:49:49 +0330</pubDate>
+      <guid>https://arashhs.github.io/project/computational-intelligence-ga-and-es/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hangman</title>
