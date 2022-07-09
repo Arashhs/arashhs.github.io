@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://arashhs.github.io/sitemap.xml
