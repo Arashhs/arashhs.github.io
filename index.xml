@@ -5,476 +5,262 @@
     <link>https://arashhs.github.io/</link>
       <atom:link href="https://arashhs.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Arash Hajisafi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>[Arash Hajisafi](https://arashhs.github.io/) © 2021</copyright><lastBuildDate>Sat, 26 Dec 2020 05:49:49 +0330</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://arashhs.github.io/images/icon_hu66945b6f4b90faf7a26b441f02dee319_707_512x512_fill_lanczos_center_2.png</url>
+      <url>https://arashhs.github.io/media/icon_hu66945b6f4b90faf7a26b441f02dee319_707_512x512_fill_lanczos_center_3.png</url>
       <title>Arash Hajisafi</title>
       <link>https://arashhs.github.io/</link>
     </image>
     
     <item>
-      <title>Computational Intelligence Programming</title>
-      <link>https://arashhs.github.io/project/computational-intelligence-ga-and-es/</link>
-      <pubDate>Sat, 26 Dec 2020 05:49:49 +0330</pubDate>
-      <guid>https://arashhs.github.io/project/computational-intelligence-ga-and-es/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Principles of Artificial Intelligence - Card Game</title>
-      <link>https://arashhs.github.io/project/principles-of-artificial-intelligence-card-game-search/</link>
-      <pubDate>Sat, 26 Dec 2020 03:28:19 +0330</pubDate>
-      <guid>https://arashhs.github.io/project/principles-of-artificial-intelligence-card-game-search/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hangman</title>
-      <link>https://arashhs.github.io/project/hangman/</link>
-      <pubDate>Wed, 19 Aug 2020 06:15:02 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/hangman/</guid>
-      <description>&lt;p&gt;A terminal-based Hangman game written in C for the final project of my Introduction to Programming course in the first semester at university. It has save/load options and many other cool stuff!&lt;/p&gt;
-&lt;p&gt;Here’s some gameplay footage:
-&lt;a href=&#34;gameplay.gif&#34; target=&#34;_blank&#34;&gt;
-&lt;img src=&#34;gameplay.gif&#34; alt=&#34;Hangman © Arash Hajisafi&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Simple Image Compressor</title>
-      <link>https://arashhs.github.io/project/simple-image-compressor/</link>
-      <pubDate>Wed, 19 Aug 2020 05:53:59 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/simple-image-compressor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Battleship Game</title>
-      <link>https://arashhs.github.io/project/battleship-game/</link>
-      <pubDate>Wed, 19 Aug 2020 05:26:18 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/battleship-game/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve implemented everyone&amp;rsquo;s favorite Battleship Game in Java for my Advanced Programming course. The game supports both single-player and local multiplayer modes and is console-based.&lt;/p&gt;
-&lt;p&gt;Here&amp;rsquo;s some gameplay footage: (Click to open in full size on a new tab)
-&lt;a href=&#34;gif.gif&#34; target=&#34;_blank&#34;&gt;
-&lt;img src=&#34;gif.gif&#34; alt=&#34;Battleship © Arash Hajisafi&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Elevator Circuit</title>
-      <link>https://arashhs.github.io/project/elevator-circuit/</link>
-      <pubDate>Wed, 19 Aug 2020 05:00:44 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/elevator-circuit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NUMEX Interpreter</title>
-      <link>https://arashhs.github.io/project/numex-interpreter/</link>
-      <pubDate>Wed, 19 Aug 2020 04:47:57 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/numex-interpreter/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Example Command&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-lisp&#34;&gt;(eval-exp (with &amp;quot;f1&amp;quot; (lam &amp;quot;f1&amp;quot; &amp;quot;a&amp;quot; (with &amp;quot;x&amp;quot; (var &amp;quot;a&amp;quot;) (lam &amp;quot;f2&amp;quot; &amp;quot;z&amp;quot; (plus (var &amp;quot;x&amp;quot;) (num 1)))))
-                               (with &amp;quot;f3&amp;quot; (lam &amp;quot;f3&amp;quot; &amp;quot;f&amp;quot; (with &amp;quot;x&amp;quot; (num 1729) (apply (var &amp;quot;f&amp;quot;) (munit)))) 
-                                     (apply (var &amp;quot;f3&amp;quot;) (apply (var &amp;quot;f1&amp;quot;) (num 1))))))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;(num 2)
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Matrix Equation Solver Hardware Implementation</title>
-      <link>https://arashhs.github.io/project/matrix-equation-solver-hardware-implementation/</link>
-      <pubDate>Wed, 19 Aug 2020 04:26:47 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/matrix-equation-solver-hardware-implementation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Voice Gender Detection</title>
-      <link>https://arashhs.github.io/project/voice-gender-detection/</link>
-      <pubDate>Wed, 19 Aug 2020 04:16:55 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/voice-gender-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google Search Query Parser</title>
-      <link>https://arashhs.github.io/project/google-search-query-parser/</link>
-      <pubDate>Wed, 19 Aug 2020 03:53:52 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/google-search-query-parser/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Compiler Project</title>
-      <link>https://arashhs.github.io/project/compiler-project/</link>
-      <pubDate>Wed, 19 Aug 2020 02:29:57 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/compiler-project/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Lexical Analysis, Syntax Analysis, Semantic Analysis, and Intermediate Code Generation
-implemented using JFlex and Bison for my Compiler Design course project for the grammar which is included in the repository&lt;/li&gt;
-&lt;li&gt;Generated code representation is in three address code format&lt;/li&gt;
+      <title>Example Talk</title>
+      <link>https://arashhs.github.io/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://arashhs.github.io/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;how-to-compile&#34;&gt;How to compile&lt;/h2&gt;
-&lt;p&gt;Make sure that you have set up Bison and Flex properly, then run the following code in terminal:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;bison -L JAVA SHLang.yac -v
-del SHLang.java
-ren SHLang.cac SHLang.java
-javac Yylex.java SHLang.java
-java YYParser
-gcc compiler.c
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Alternatively, you can run the &lt;em&gt;&lt;strong&gt;run.bat&lt;/strong&gt;&lt;/em&gt; file.&lt;/p&gt;
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Input&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;Program p1Main;
-	Real n1, n2, n3, n4, n5;
-Begin
-	
-	n1 := #20 - #10 / #2;
-	n2 := n1 / (#3 + #2);
-	n3 := n1 * n2 - #10;	
-	
-	If(n1 .GT. #2) Then Begin
-	
-		For n4:=n2 Downto #0 Do Begin
-			n3 := n3 + #1;
-			n2 := n2 - #1
-		End
-	End Else
-		If(n2 .NE. #3) Then n2 := #80
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>https://arashhs.github.io/post/getting-started/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://arashhs.github.io/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
 
 
-End;
-&lt;/code&gt;&lt;/pre&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://arashhs.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://arashhs.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;#include &amp;lt;stdio.h&amp;gt;
-
-int main() {
-	// ////////////////// Symbol Table \\\\\\\\\\\\\\\\\\ \\
-
-	double n1;
-	double n2;
-	double n3;
-	double n4;
-	double n5;
-	int __SHLangTempVar0;
-	int __SHLangTempVar1;
-	int __SHLangTempVar2;
-	int __SHLangTempVar3;
-	int __SHLangTempVar4;
-	double __SHLangTempVar5;
-	int __SHLangTempVar6;
-	int __SHLangTempVar7;
-	int __SHLangTempVar8;
-	double __SHLangTempVar9;
-	double __SHLangTempVar10;
-	double __SHLangTempVar11;
-	int __SHLangTempVar12;
-	double __SHLangTempVar13;
-	double __SHLangTempVar14;
-	int __SHLangTempVar15;
-	int __SHLangTempVar16;
-	int __SHLangTempVar17;
-	int __SHLangTempVar18;
-	double __SHLangTempVar19;
-	double __SHLangTempVar20;
-	int __SHLangTempVar21;
-	double __SHLangTempVar22;
-	double __SHLangTempVar23;
-	int __SHLangConditionVarn4;
-	int __SHLangTempVar24;
-	int __SHLangTempVar25;
-	int __SHLangTempVar26;
-	double __SHLangTempVar27;
-
-	// ////////////////// Quadruples \\\\\\\\\\\\\\\\\\ \\
-
-Line0:		__SHLangTempVar0 = 20;
-Line1:		if (__SHLangTempVar0) goto Line3;
-Line2:		goto Line3;
-Line3:		__SHLangTempVar1 = 10;
-Line4:		if (__SHLangTempVar1) goto Line6;
-Line5:		goto Line6;
-Line6:		__SHLangTempVar2 = 2;
-Line7:		if (__SHLangTempVar2) goto Line9;
-Line8:		goto Line9;
-Line9:		__SHLangTempVar3 = __SHLangTempVar1 / __SHLangTempVar2;
-Line10:		if (__SHLangTempVar3) goto Line12;
-Line11:		goto Line12;
-Line12:		__SHLangTempVar4 = __SHLangTempVar0 - __SHLangTempVar3;
-Line13:		if (__SHLangTempVar4) goto Line15;
-Line14:		goto Line15;
-Line15:		__SHLangTempVar5 = (double) __SHLangTempVar4;
-Line16:		n1 = __SHLangTempVar5;
-Line17:		printf(&amp;quot;%s = %f\n&amp;quot;, &amp;quot;n1&amp;quot;, n1);
-Line18:		goto Line19;
-Line19:		if (n1) goto Line21;
-Line20:		goto Line21;
-Line21:		__SHLangTempVar6 = 3;
-Line22:		if (__SHLangTempVar6) goto Line24;
-Line23:		goto Line24;
-Line24:		__SHLangTempVar7 = 2;
-Line25:		if (__SHLangTempVar7) goto Line27;
-Line26:		goto Line27;
-Line27:		__SHLangTempVar8 = __SHLangTempVar6 + __SHLangTempVar7;
-Line28:		if (__SHLangTempVar8) goto Line30;
-Line29:		goto Line30;
-Line30:		__SHLangTempVar10 = (double) __SHLangTempVar8;
-Line31:		__SHLangTempVar9 = n1 / __SHLangTempVar10;
-Line32:		if (__SHLangTempVar9) goto Line34;
-Line33:		goto Line34;
-Line34:		n2 = __SHLangTempVar9;
-Line35:		printf(&amp;quot;%s = %f\n&amp;quot;, &amp;quot;n2&amp;quot;, n2);
-Line36:		goto Line37;
-Line37:		if (n1) goto Line39;
-Line38:		goto Line39;
-Line39:		if (n2) goto Line41;
-Line40:		goto Line41;
-Line41:		__SHLangTempVar11 = n1 * n2;
-Line42:		if (__SHLangTempVar11) goto Line44;
-Line43:		goto Line44;
-Line44:		__SHLangTempVar12 = 10;
-Line45:		if (__SHLangTempVar12) goto Line47;
-Line46:		goto Line47;
-Line47:		__SHLangTempVar14 = (double) __SHLangTempVar12;
-Line48:		__SHLangTempVar13 = __SHLangTempVar11 - __SHLangTempVar14;
-Line49:		if (__SHLangTempVar13) goto Line51;
-Line50:		goto Line51;
-Line51:		n3 = __SHLangTempVar13;
-Line52:		printf(&amp;quot;%s = %f\n&amp;quot;, &amp;quot;n3&amp;quot;, n3);
-Line53:		goto Line54;
-Line54:		if (n1) goto Line56;
-Line55:		goto Line56;
-Line56:		__SHLangTempVar15 = 2;
-Line57:		if (__SHLangTempVar15) goto Line59;
-Line58:		goto Line59;
-Line59:		__SHLangTempVar16 = n1 &amp;gt; __SHLangTempVar15;
-Line60:		if (__SHLangTempVar16) goto Line62;
-Line61:		goto Line100;
-Line62:		if (n2) goto Line64;
-Line63:		goto Line64;
-Line64:		__SHLangTempVar17 = 0;
-Line65:		if (__SHLangTempVar17) goto Line67;
-Line66:		goto Line67;
-Line67:		goto Line92;
-Line68:		if (n3) goto Line70;
-Line69:		goto Line70;
-Line70:		__SHLangTempVar18 = 1;
-Line71:		if (__SHLangTempVar18) goto Line73;
-Line72:		goto Line73;
-Line73:		__SHLangTempVar20 = (double) __SHLangTempVar18;
-Line74:		__SHLangTempVar19 = n3 + __SHLangTempVar20;
-Line75:		if (__SHLangTempVar19) goto Line77;
-Line76:		goto Line77;
-Line77:		n3 = __SHLangTempVar19;
-Line78:		printf(&amp;quot;%s = %f\n&amp;quot;, &amp;quot;n3&amp;quot;, n3);
-Line79:		goto Line80;
-Line80:		if (n2) goto Line82;
-Line81:		goto Line82;
-Line82:		__SHLangTempVar21 = 1;
-Line83:		if (__SHLangTempVar21) goto Line85;
-Line84:		goto Line85;
-Line85:		__SHLangTempVar23 = (double) __SHLangTempVar21;
-Line86:		__SHLangTempVar22 = n2 - __SHLangTempVar23;
-Line87:		if (__SHLangTempVar22) goto Line89;
-Line88:		goto Line89;
-Line89:		n2 = __SHLangTempVar22;
-Line90:		printf(&amp;quot;%s = %f\n&amp;quot;, &amp;quot;n2&amp;quot;, n2);
-Line91:		goto Line97;
-Line92:		n4 = n2;
-Line93:		__SHLangConditionVarn4 = __SHLangTempVar17 - n4;
-Line94:		__SHLangConditionVarn4 = n4 &amp;gt;= __SHLangTempVar17;
-Line95:		if (__SHLangConditionVarn4) goto Line68;
-Line96:		goto Line115;
-Line97:		n4 = n4 - 1;
-Line98:		goto Line93;
-Line99:		goto Line115;
-Line100:		if (n2) goto Line102;
-Line101:		goto Line102;
-Line102:		__SHLangTempVar24 = 3;
-Line103:		if (__SHLangTempVar24) goto Line105;
-Line104:		goto Line105;
-Line105:		__SHLangTempVar25 = n2 != __SHLangTempVar24;
-Line106:		if (__SHLangTempVar25) goto Line108;
-Line107:		goto Line115;
-Line108:		__SHLangTempVar26 = 80;
-Line109:		if (__SHLangTempVar26) goto Line111;
-Line110:		goto Line111;
-Line111:		__SHLangTempVar27 = (double) __SHLangTempVar26;
-Line112:		n2 = __SHLangTempVar27;
-Line113:		printf(&amp;quot;%s = %f\n&amp;quot;, &amp;quot;n2&amp;quot;, n2);
-Line114:		goto Line115;
-Line115:		printf(&amp;quot;Process is terminated with no error.\n&amp;quot;);
-				getchar();
-				return 0;
-Line116:		printf(&amp;quot;Array Error: Index out of bound!\n&amp;quot;);
-				getchar();
-			return -1;
-Line117:		printf(&amp;quot;Array Error: Invalid array size!\n&amp;quot;);
-				getchar();
-			return -2;
-}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;n1 = 15.000000
-n2 = 3.000000
-n3 = 35.000000
-n3 = 36.000000
-n2 = 2.000000
-n3 = 37.000000
-n2 = 1.000000
-n3 = 38.000000
-n2 = 0.000000
-n3 = 39.000000
-n2 = -1.000000
-Process is terminated with no error.
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Research Secure Smart Card Based Healthcare System</title>
-      <link>https://arashhs.github.io/project/research-secure-smart-card-based-healthcare-system/</link>
-      <pubDate>Tue, 18 Aug 2020 07:36:43 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/research-secure-smart-card-based-healthcare-system/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Design and Analysis of a Secure Smart-Card-Based Healthcare System&lt;/strong&gt;
-The research consists of 2 main parts, the investigation of smart card architectures and modeling security threats in an Electronic Healthcare System. A functional system architecture has been proposed to address these security threats which specifies a smart-card-based authentication method. The research was conducted in the Spring and Summer of 2020 for my Research Method and Technical Presentation course (which includes both Written and Oral Presentations).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Modified Arduino FreeRTOS Scheduling</title>
-      <link>https://arashhs.github.io/project/modified-arduino-freertos-scheduling/</link>
-      <pubDate>Tue, 18 Aug 2020 07:25:35 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/modified-arduino-freertos-scheduling/</guid>
-      <description>&lt;p&gt;I have implemented the EDF and FCFS scheduling algorithms in FreeRTOS for Arduino boards as part of my Real-Time and Embedded Systems course assignments.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Modified Xv6 With New Features</title>
-      <link>https://arashhs.github.io/project/modified-xv6-with-new-features/</link>
-      <pubDate>Tue, 18 Aug 2020 07:11:04 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/modified-xv6-with-new-features/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Implemented a modified version of Xv6&amp;rsquo;s original scheduling algorithm and a modified
-priority-based scheduling algorithm to take both the waiting time and importance of a task
-into account&lt;/li&gt;
-&lt;li&gt;Added system calls to choose the scheduling algorithm in a process, to count the number of
-called system calls in a process, and several more features&lt;/li&gt;
-&lt;li&gt;Added the ability to measure creation time, termination time, sleeping time, ready time, and
-running time of processes to evaluate the performance of the new scheduling algorithms&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Threads and Ticket Lock Implementation in Xv6</title>
-      <link>https://arashhs.github.io/project/threads-and-ticket-lock-implementation-in-xv6/</link>
-      <pubDate>Tue, 18 Aug 2020 06:58:17 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/threads-and-ticket-lock-implementation-in-xv6/</guid>
-      <description>&lt;p&gt;I have implemented threads and ticket lock in Xv6 for the final project of my Operating Systems course&lt;/p&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Modified Xv6 process allocation, execution, and termination implementations to add support
-for threads so that each process can have multiple threads&lt;/li&gt;
-&lt;li&gt;Modified scheduling algorithm to schedule threads&lt;/li&gt;
-&lt;li&gt;Added Ticket Lock to the kernel&lt;/li&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NetWolf</title>
-      <link>https://arashhs.github.io/project/netwolf/</link>
-      <pubDate>Tue, 18 Aug 2020 06:27:44 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/netwolf/</guid>
-      <description>&lt;p&gt;NetWolf is a P2P torrent-like network application written in Python for the final project of my Computer Networks Course with the following capabilities:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Discovering clusters and maintaining a cluster list at each node by periodically sending a UDP customized DISCOVERY message&lt;/li&gt;
-&lt;li&gt;Sharing files between nodes by sending a UDP customized GET message (which includes the file names), waiting for the answer, and selecting the best node (fastest response), and then establishing a TCP connection for transmitting the file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Application in action: (Click to open in full size on a new tab)
-&lt;a href=&#34;gif.gif&#34; target=&#34;_blank&#34;&gt;
-&lt;img src=&#34;gif.gif&#34; alt=&#34;NetWolf © Arash Hajisafi&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Restaurant Management Database</title>
-      <link>https://arashhs.github.io/project/restaurant-management-database/</link>
-      <pubDate>Tue, 18 Aug 2020 03:57:01 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/restaurant-management-database/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;A database system for restaurant management using Python, Tkinter library, and MySQL for the final
-project of my Database Design course&lt;/li&gt;
-&lt;li&gt;Applied ER and normalization techniques to design the database and adopted Python to build
-a GUI app to connect with the database and add/delete/edit records and tables, and execute
-queries on the database&lt;/li&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Application in action: (Click to open in full size on a new tab)
-&lt;a href=&#34;featured.gif&#34; target=&#34;_blank&#34;&gt;
-&lt;img src=&#34;featured.gif&#34; alt=&#34;Restaurant Management Database © Arash Hajisafi&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>That&#39;s MyTable V2</title>
-      <link>https://arashhs.github.io/project/thats-mytable-v2/</link>
-      <pubDate>Tue, 18 Aug 2020 03:42:44 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/thats-mytable-v2/</guid>
-      <description>&lt;p&gt;That&amp;rsquo;s MyTable V2 is a Java Spring MVC and Hibernate project used for the implementation of my Software Engineering (I) project for table booking and food reservations in a restaurant.&lt;/p&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Forked from 
-&lt;a href=&#34;https://github.com/ekta2391/Thats-MyTable-Restaurant-Table-Booking-Web-Application&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;That&amp;rsquo;s MyTable!&lt;/a&gt;, a Github repository on which we applied different software evolution and maintenance techniques to adapt the project with newer versions of Java and Spring framework and added many new functionalities such as food reservations and a better implementation for table booking and time management as well as fixing numerous bugs&lt;/li&gt;
-&lt;li&gt;Re-wrote the entire database from the ground up to adapt it with new functionalities&lt;/li&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JTanks Game</title>
-      <link>https://arashhs.github.io/project/jtanks-game/</link>
-      <pubDate>Mon, 17 Aug 2020 06:03:21 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/jtanks-game/</guid>
-      <description>&lt;p&gt;JTanks is a 2D tank game made in Java for the final project of my Advanced Programming course written
-at the end of my freshman year at university.&lt;/p&gt;
+&lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;Both multiplayer and single-player modes are implemented as well as a text-based map editor&lt;/li&gt;
-&lt;li&gt;A balanced loot-based system is implemented with various power-up items - varying from weapon-upgrades to reducing damage taken by the player&lt;/li&gt;
-&lt;li&gt;Featuring three different difficulty settings (Easy, Normal, and Hard) which impacts the maps, enemies, and the amount of damage taken by the player in the game&lt;/li&gt;
-&lt;li&gt;The project is based on Buffer-Strategy implementation and uses multi-threading techniques
-&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Here&amp;rsquo;s some gameplay footage:
-&lt;img src=&#34;gameplay.gif&#34; alt=&#34;JTanks Gameplay © Arash Hajisafi&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/media/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>JDM</title>
-      <link>https://arashhs.github.io/project/jdm/</link>
-      <pubDate>Mon, 17 Aug 2020 03:12:21 +0430</pubDate>
-      <guid>https://arashhs.github.io/project/jdm/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;JDM is a GUI Download Manager written in Java.&lt;/li&gt;
-&lt;li&gt;It supports multiple downloads at the same time (with the ability to limit the maximum number of concurrent downloads), blocking downloads from specific domains, and queueing&lt;/li&gt;
-&lt;li&gt;It is the Midterm Project of my Advanced Programming course&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Application in action: (Click to open in full size on a new tab)
-&lt;a href=&#34;gif.gif&#34; target=&#34;_blank&#34;&gt;
-&lt;img src=&#34;gif.gif&#34; alt=&#34;JDM © Arash Hajisafi&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
+      <title>An example conference paper</title>
+      <link>https://arashhs.github.io/publication/example/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://arashhs.github.io/publication/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://arashhs.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://arashhs.github.io/admin/config.yml</guid>
+      <description></description>
     </item>
     
   </channel>
