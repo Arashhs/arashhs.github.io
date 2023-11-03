@@ -301,14 +301,6 @@
 
   
 
-<script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-K3MXTCLT');
-</script>
-
 
   
 
@@ -946,26 +938,26 @@ gcc compiler.c
 </code></pre><p>Alternatively, you can run the <em><strong>run.bat</strong></em> file.</p>
 <h2 id="example">Example</h2>
 <p><strong>Input</strong>:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Program</span> <span class="n">p1Main</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">	<span class="n">Real</span> <span class="n">n1</span><span class="o">,</span> <span class="n">n2</span><span class="o">,</span> <span class="n">n3</span><span class="o">,</span> <span class="n">n4</span><span class="o">,</span> <span class="n">n5</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">Begin</span>
-</span></span><span class="line"><span class="cl">	
-</span></span><span class="line"><span class="cl">	<span class="n">n1</span> <span class="o">:=</span> <span class="err">#</span><span class="n">20</span> <span class="o">-</span> <span class="err">#</span><span class="n">10</span> <span class="o">/</span> <span class="err">#</span><span class="n">2</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">	<span class="n">n2</span> <span class="o">:=</span> <span class="n">n1</span> <span class="o">/</span> <span class="o">(</span><span class="err">#</span><span class="n">3</span> <span class="o">+</span> <span class="err">#</span><span class="n">2</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl">	<span class="n">n3</span> <span class="o">:=</span> <span class="n">n1</span> <span class="o">*</span> <span class="n">n2</span> <span class="o">-</span> <span class="err">#</span><span class="n">10</span><span class="o">;</span>	
-</span></span><span class="line"><span class="cl">	
-</span></span><span class="line"><span class="cl">	<span class="n">If</span><span class="o">(</span><span class="n">n1</span> <span class="o">.</span><span class="na">GT</span><span class="o">.</span> <span class="err">#</span><span class="n">2</span><span class="o">)</span> <span class="n">Then</span> <span class="n">Begin</span>
-</span></span><span class="line"><span class="cl">	
-</span></span><span class="line"><span class="cl">		<span class="n">For</span> <span class="n">n4</span><span class="o">:=</span><span class="n">n2</span> <span class="n">Downto</span> <span class="err">#</span><span class="n">0</span> <span class="n">Do</span> <span class="n">Begin</span>
-</span></span><span class="line"><span class="cl">			<span class="n">n3</span> <span class="o">:=</span> <span class="n">n3</span> <span class="o">+</span> <span class="err">#</span><span class="n">1</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">			<span class="n">n2</span> <span class="o">:=</span> <span class="n">n2</span> <span class="o">-</span> <span class="err">#</span><span class="n">1</span>
-</span></span><span class="line"><span class="cl">		<span class="n">End</span>
-</span></span><span class="line"><span class="cl">	<span class="n">End</span> <span class="n">Else</span>
-</span></span><span class="line"><span class="cl">		<span class="nf">If</span><span class="o">(</span><span class="n">n2</span> <span class="o">.</span><span class="na">NE</span><span class="o">.</span> <span class="err">#</span><span class="n">3</span><span class="o">)</span> <span class="n">Then</span> <span class="n">n2</span> <span class="o">:=</span> <span class="err">#</span><span class="n">80</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">End</span><span class="o">;</span>
-</span></span></code></pre></div><hr>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Program</span><span class="w"> </span><span class="n">p1Main</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">Real</span><span class="w"> </span><span class="n">n1</span><span class="p">,</span><span class="w"> </span><span class="n">n2</span><span class="p">,</span><span class="w"> </span><span class="n">n3</span><span class="p">,</span><span class="w"> </span><span class="n">n4</span><span class="p">,</span><span class="w"> </span><span class="n">n5</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">Begin</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">n1</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="w"> </span><span class="err">#</span><span class="n">20</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="err">#</span><span class="n">10</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="err">#</span><span class="n">2</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">n2</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="w"> </span><span class="n">n1</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="p">(</span><span class="err">#</span><span class="n">3</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="err">#</span><span class="n">2</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">n3</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="w"> </span><span class="n">n1</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">n2</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="err">#</span><span class="n">10</span><span class="p">;</span><span class="w">	
+</span></span></span><span class="line"><span class="cl"><span class="w">	
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">If</span><span class="p">(</span><span class="n">n1</span><span class="w"> </span><span class="p">.</span><span class="na">GT</span><span class="p">.</span><span class="w"> </span><span class="err">#</span><span class="n">2</span><span class="p">)</span><span class="w"> </span><span class="n">Then</span><span class="w"> </span><span class="n">Begin</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="n">For</span><span class="w"> </span><span class="n">n4</span><span class="p">:</span><span class="o">=</span><span class="n">n2</span><span class="w"> </span><span class="n">Downto</span><span class="w"> </span><span class="err">#</span><span class="n">0</span><span class="w"> </span><span class="n">Do</span><span class="w"> </span><span class="n">Begin</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">			</span><span class="n">n3</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="w"> </span><span class="n">n3</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="err">#</span><span class="n">1</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">			</span><span class="n">n2</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="w"> </span><span class="n">n2</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="err">#</span><span class="n">1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="n">End</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">End</span><span class="w"> </span><span class="n">Else</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nf">If</span><span class="p">(</span><span class="n">n2</span><span class="w"> </span><span class="p">.</span><span class="na">NE</span><span class="p">.</span><span class="w"> </span><span class="err">#</span><span class="n">3</span><span class="p">)</span><span class="w"> </span><span class="n">Then</span><span class="w"> </span><span class="n">n2</span><span class="w"> </span><span class="p">:</span><span class="o">=</span><span class="w"> </span><span class="err">#</span><span class="n">80</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">End</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><hr>
 <p><strong>Output</strong>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
 </span></span></span><span class="line"><span class="cl"><span class="cp"></span>
@@ -1026,7 +1018,7 @@ gcc compiler.c
 </span></span><span class="line"><span class="cl"><span class="nl">Line14</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line15</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line15</span><span class="p">:</span>		<span class="n">__SHLangTempVar5</span> <span class="o">=</span> <span class="p">(</span><span class="kt">double</span><span class="p">)</span> <span class="n">__SHLangTempVar4</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line16</span><span class="p">:</span>		<span class="n">n1</span> <span class="o">=</span> <span class="n">__SHLangTempVar5</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="nl">Line17</span><span class="p">:</span>		<span class="n">printf</span><span class="p">(</span><span class="s">&#34;%s = %f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;n1&#34;</span><span class="p">,</span> <span class="n">n1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nl">Line17</span><span class="p">:</span>		<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%s = %f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;n1&#34;</span><span class="p">,</span> <span class="n">n1</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line18</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line19</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line19</span><span class="p">:</span>		<span class="k">if</span> <span class="p">(</span><span class="n">n1</span><span class="p">)</span> <span class="k">goto</span> <span class="n">Line21</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line20</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line21</span><span class="p">;</span>
@@ -1044,7 +1036,7 @@ gcc compiler.c
 </span></span><span class="line"><span class="cl"><span class="nl">Line32</span><span class="p">:</span>		<span class="k">if</span> <span class="p">(</span><span class="n">__SHLangTempVar9</span><span class="p">)</span> <span class="k">goto</span> <span class="n">Line34</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line33</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line34</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line34</span><span class="p">:</span>		<span class="n">n2</span> <span class="o">=</span> <span class="n">__SHLangTempVar9</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="nl">Line35</span><span class="p">:</span>		<span class="n">printf</span><span class="p">(</span><span class="s">&#34;%s = %f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;n2&#34;</span><span class="p">,</span> <span class="n">n2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nl">Line35</span><span class="p">:</span>		<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%s = %f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;n2&#34;</span><span class="p">,</span> <span class="n">n2</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line36</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line37</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line37</span><span class="p">:</span>		<span class="k">if</span> <span class="p">(</span><span class="n">n1</span><span class="p">)</span> <span class="k">goto</span> <span class="n">Line39</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line38</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line39</span><span class="p">;</span>
@@ -1061,7 +1053,7 @@ gcc compiler.c
 </span></span><span class="line"><span class="cl"><span class="nl">Line49</span><span class="p">:</span>		<span class="k">if</span> <span class="p">(</span><span class="n">__SHLangTempVar13</span><span class="p">)</span> <span class="k">goto</span> <span class="n">Line51</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line50</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line51</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line51</span><span class="p">:</span>		<span class="n">n3</span> <span class="o">=</span> <span class="n">__SHLangTempVar13</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="nl">Line52</span><span class="p">:</span>		<span class="n">printf</span><span class="p">(</span><span class="s">&#34;%s = %f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;n3&#34;</span><span class="p">,</span> <span class="n">n3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nl">Line52</span><span class="p">:</span>		<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%s = %f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;n3&#34;</span><span class="p">,</span> <span class="n">n3</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line53</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line54</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line54</span><span class="p">:</span>		<span class="k">if</span> <span class="p">(</span><span class="n">n1</span><span class="p">)</span> <span class="k">goto</span> <span class="n">Line56</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line55</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line56</span><span class="p">;</span>
@@ -1087,7 +1079,7 @@ gcc compiler.c
 </span></span><span class="line"><span class="cl"><span class="nl">Line75</span><span class="p">:</span>		<span class="k">if</span> <span class="p">(</span><span class="n">__SHLangTempVar19</span><span class="p">)</span> <span class="k">goto</span> <span class="n">Line77</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line76</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line77</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line77</span><span class="p">:</span>		<span class="n">n3</span> <span class="o">=</span> <span class="n">__SHLangTempVar19</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="nl">Line78</span><span class="p">:</span>		<span class="n">printf</span><span class="p">(</span><span class="s">&#34;%s = %f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;n3&#34;</span><span class="p">,</span> <span class="n">n3</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nl">Line78</span><span class="p">:</span>		<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%s = %f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;n3&#34;</span><span class="p">,</span> <span class="n">n3</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line79</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line80</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line80</span><span class="p">:</span>		<span class="k">if</span> <span class="p">(</span><span class="n">n2</span><span class="p">)</span> <span class="k">goto</span> <span class="n">Line82</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line81</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line82</span><span class="p">;</span>
@@ -1099,7 +1091,7 @@ gcc compiler.c
 </span></span><span class="line"><span class="cl"><span class="nl">Line87</span><span class="p">:</span>		<span class="k">if</span> <span class="p">(</span><span class="n">__SHLangTempVar22</span><span class="p">)</span> <span class="k">goto</span> <span class="n">Line89</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line88</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line89</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line89</span><span class="p">:</span>		<span class="n">n2</span> <span class="o">=</span> <span class="n">__SHLangTempVar22</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="nl">Line90</span><span class="p">:</span>		<span class="n">printf</span><span class="p">(</span><span class="s">&#34;%s = %f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;n2&#34;</span><span class="p">,</span> <span class="n">n2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nl">Line90</span><span class="p">:</span>		<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%s = %f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;n2&#34;</span><span class="p">,</span> <span class="n">n2</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line91</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line97</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line92</span><span class="p">:</span>		<span class="n">n4</span> <span class="o">=</span> <span class="n">n2</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line93</span><span class="p">:</span>		<span class="n">__SHLangConditionVarn4</span> <span class="o">=</span> <span class="n">__SHLangTempVar17</span> <span class="o">-</span> <span class="n">n4</span><span class="p">;</span>
@@ -1122,16 +1114,16 @@ gcc compiler.c
 </span></span><span class="line"><span class="cl"><span class="nl">Line110</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line111</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line111</span><span class="p">:</span>		<span class="n">__SHLangTempVar27</span> <span class="o">=</span> <span class="p">(</span><span class="kt">double</span><span class="p">)</span> <span class="n">__SHLangTempVar26</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line112</span><span class="p">:</span>		<span class="n">n2</span> <span class="o">=</span> <span class="n">__SHLangTempVar27</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="nl">Line113</span><span class="p">:</span>		<span class="n">printf</span><span class="p">(</span><span class="s">&#34;%s = %f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;n2&#34;</span><span class="p">,</span> <span class="n">n2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nl">Line113</span><span class="p">:</span>		<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%s = %f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="s">&#34;n2&#34;</span><span class="p">,</span> <span class="n">n2</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="nl">Line114</span><span class="p">:</span>		<span class="k">goto</span> <span class="n">Line115</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="nl">Line115</span><span class="p">:</span>		<span class="n">printf</span><span class="p">(</span><span class="s">&#34;Process is terminated with no error.</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">				<span class="n">getchar</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="nl">Line115</span><span class="p">:</span>		<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Process is terminated with no error.</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="nf">getchar</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">				<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="nl">Line116</span><span class="p">:</span>		<span class="n">printf</span><span class="p">(</span><span class="s">&#34;Array Error: Index out of bound!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">				<span class="n">getchar</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="nl">Line116</span><span class="p">:</span>		<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Array Error: Index out of bound!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="nf">getchar</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">			<span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="nl">Line117</span><span class="p">:</span>		<span class="n">printf</span><span class="p">(</span><span class="s">&#34;Array Error: Invalid array size!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">				<span class="n">getchar</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="nl">Line117</span><span class="p">:</span>		<span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Array Error: Invalid array size!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">				<span class="nf">getchar</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">			<span class="k">return</span> <span class="o">-</span><span class="mi">2</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><hr>
@@ -1487,7 +1479,7 @@ Process is terminated with no error.
       
 
     
-    <script src="/js/vendor-bundle.min.46271ef31da3f018e9cd1b59300aa265.js"></script>
+    <script src="/js/vendor-bundle.min.b4708d4364577c16ab7001b265a063a4.js"></script>
 
     
     
@@ -1582,7 +1574,7 @@ Process is terminated with no error.
       
     
     
-    <script src="/en/js/wowchemy.min.3239609ca7abe02ed52d76ffcb22af1d.js"></script>
+    <script src="/en/js/wowchemy.min.e621ca22b71fe422a443af00168d758e.js"></script>
 
     
     

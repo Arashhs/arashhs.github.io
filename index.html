@@ -327,14 +327,6 @@
 
   
 
-<script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-K3MXTCLT');
-</script>
-
 
   
 
@@ -1331,25 +1323,51 @@ Hi! My name is Arash. I am currently working as a PhD Research Assistant at <b><
           
 
           <div class="card-text"><h4 id="project-highlights">Project Highlights</h4>
-<h5 id="w4h-wearables-for-health-and-disease-knowledgehttpbitlyw4h-usc"><a href="http://bit.ly/w4h-usc" target="_blank" rel="noopener">W4H: Wearables for Health and Disease Knowledge</a></h5>
-<p>I am leading the development of an open-source toolkit to centralize real-time wearable data, aiming to improve healthcare data management.</p>
+<h5 id="wearables-for-health-w4h-toolkithttpsgithubcomusc-infolabw4h-integrated-toolkit"><a href="https://github.com/USC-InfoLab/w4h-integrated-toolkit/" target="_blank" rel="noopener">Wearables for Health (W4H) Toolkit</a></h5>
 <ul>
-<li>Developed a unified Geo-Referenced Multivariate Time-Series (GeoMTS) format to integrate data from various sources.</li>
-<li>Created scalable solutions using big data frameworks such as Spark and Kafka, and developed visualization dashboards for real-time analysis.</li>
-<li>This work has contributed to real-time outlier detection in healthcare data and supported the open-source community with <a href="https://github.com/search?q=topic%3Aw4h&#43;org%3AUSC-InfoLab&amp;type=Repositories" target="_blank" rel="noopener"><strong>custom tools</strong></a>.</li>
+<li>
+<p>Led the development of the W4H Integrated Toolkit, an open-source toolkit centralizing both real-time and offline wearable data from various sources (e.g., Garmin, Apple Watch, Fitbit).</p>
+</li>
+<li>
+<p>Designed a scalable system architecture separating data engineering, analysis, and visualization.</p>
+</li>
+<li>
+<p>The toolkit comprises the following open-sourced tools:
+<br><br/></p>
+<ul>
+<li>
+<p><a href="https://github.com/USC-InfoLab/StreamSim" target="_blank" rel="noopener"><strong>StreamSim</strong></a>: Real-time data streaming simulator using Python and Flask.</p>
+</li>
+<li>
+<p><a href="https://github.com/USC-InfoLab/W4H-ImportHub" target="_blank" rel="noopener"><strong>W4H ImportHub</strong></a>: Integrates stored datasets with Python, SQLAlchemy, and Streamlit.</p>
+</li>
+<li>
+<p><a href="https://github.com/USC-InfoLab/pyGarminAPI" target="_blank" rel="noopener"><strong>pyGarminAPI</strong></a>: Python library for interacting with the Garmin API.</p>
+</li>
+<li>
+<p><a href="https://github.com/USC-InfoLab/w4h-integrated-toolkit/" target="_blank" rel="noopener"><strong>Integrated Analytics Dashboard</strong></a>: Core component for data extraction and analysis using Streamlit, pandas, Flask, Spark, and Kafka.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Released the toolkit in two modes: a Docker image for local setup and a centralized version on USC clusters.</p>
+</li>
 </ul>
 <h5 id="accurate-eeg-seizure-detection-and-classification">Accurate EEG Seizure Detection and Classification</h5>
 <p>I developed a GNN-based deep learning model to analyze brain correlations across spatial, semantic, and temporal dimensions using EEG signals.</p>
 <ul>
-<li>Utilized a dynamic graph that reflects dependencies in the brain for precise seizure classification.</li>
-<li>This work contributes to further understanding and advancements in the field of medical diagnostics.</li>
+<li>Designed and implemented a GNN-based model using PyTorch and PyTorch Geometric to dynamically model brain correlations using EEG signals.</li>
+<li>Utilized pretrained LLMS to enhance model performance, unveiling dynamic brain dependencies.</li>
 </ul>
-<h5 id="accurate-point-of-interest-visit-forecasting-using-gnnspublicationbysgnn"><a href="/publication/bysgnn/">Accurate Point-of-Interest Visit Forecasting using GNNs</a></h5>
+<h5 id="learning-dynamic-graphs-for-accurate-point-of-interest-visit-forecastingpublicationbysgnn"><a href="/publication/bysgnn/">Learning Dynamic Graphs for Accurate Point-of-Interest Visit Forecasting</a></h5>
 <p>Addressing the complex task of predicting visits to Points of Interest (POIs), I formulated the problem as a multivariate time-series forecasting challenge.</p>
 <ul>
-<li>Proposed the Busyness Graph Neural Network (BysGNN), uncovering multi-context correlations for accurate forecasting.</li>
-<li>Integrated temporal, spatial, and semantic signals, achieving significant improvement in forecasting accuracy over existing models, thereby contributing to real-world applications.</li>
+<li>Transformed the problem of predicting POI visits in the U.S. into a time-series forecasting task, leveraging multi-context correlations.</li>
+<li>Introduced BysGNN, a temporal graph neural network implemented using PyTorch.</li>
+<li>Utilized pretrained LLMS to optimize the model, achieving significant improvement in forecasting accuracy.</li>
 </ul>
+<h5 id="mentoring-and-training">Mentoring and Training</h5>
+<p>Trained and guided two undergraduate students on an academic project during the Summer of 2022, enhancing their research capabilities and ensuring project success.</p>
 </div>
         </div>
       </div>
@@ -1391,10 +1409,9 @@ Hi! My name is Arash. I am currently working as a PhD Research Assistant at <b><
 
           <div class="card-text"><p><strong>Responsibilities include:</strong></p>
 <ul>
-<li>Engineered and implemented sophisticated automated business processes, utilizing cutting-edge technologies and methodologies to enhance efficiency and accuracy.</li>
-<li>Translated high-level requirements into comprehensive functional specifications, devising detailed development plans that aligned with strategic objectives and technical constraints.</li>
-<li>Orchestrated and executed rigorous User Acceptance Testing (UAT), employing systematic testing strategies to identify and rectify errors, demonstrating a commitment to quality and continuous improvement.</li>
-<li>Conceptualized, designed, and developed intricate web forms in accordance with given specifications, leveraging modern web technologies and best practices to ensure compliance with business requirements.</li>
+<li>Engineered automated business processes using Python, Flask, and Selenium, enhancing efficiency.</li>
+<li>Conducted unit and integration testing using pytest and unittest libraries in Python.</li>
+<li>Developed interactive web dashboards using HTML, CSS, and JavaScript for enhanced user experience.</li>
 </ul>
 </div>
         </div>
@@ -4239,7 +4256,7 @@ Please visit my <a href="https://github.com/Arashhs?tab=repositories">GitHub pro
   
   <a href="/project/restaurant-management-database/" >
     <div class="img-hover-zoom">
-      <img src="/project/restaurant-management-database/featured_hud4d5965f464025c55bf948b876e2da7c_2195207_808x455_fill_q75_h2_lanczos_smart1.webp" height="526" width="1275"
+      <img src="/project/restaurant-management-database/featured_hud4d5965f464025c55bf948b876e2da7c_2195207_808x455_fill_q75_h2_lanczos_smart1_1.webp" height="455" width="808"
            class="article-banner" alt="Restaurant Management Database" loading="lazy">
     </div>
   </a>
@@ -4996,7 +5013,7 @@ Please visit my <a href="https://github.com/Arashhs?tab=repositories">GitHub pro
       
 
     
-    <script src="/js/vendor-bundle.min.46271ef31da3f018e9cd1b59300aa265.js"></script>
+    <script src="/js/vendor-bundle.min.b4708d4364577c16ab7001b265a063a4.js"></script>
 
     
     
@@ -5093,7 +5110,7 @@ Please visit my <a href="https://github.com/Arashhs?tab=repositories">GitHub pro
       
     
     
-    <script src="/en/js/wowchemy.min.3239609ca7abe02ed52d76ffcb22af1d.js"></script>
+    <script src="/en/js/wowchemy.min.e621ca22b71fe422a443af00168d758e.js"></script>
 
     
     
