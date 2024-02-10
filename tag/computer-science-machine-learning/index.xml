@@ -5,7 +5,7 @@
     <link>https://arashhs.github.io/tag/computer-science-machine-learning/</link>
       <atom:link href="https://arashhs.github.io/tag/computer-science-machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Computer Science - Machine Learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://arashhs.github.io/media/icon_hu66945b6f4b90faf7a26b441f02dee319_707_512x512_fill_lanczos_center_3.png</url>
       <title>Computer Science - Machine Learning</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>Dynamic GNNs for Precise Seizure Detection and Classification from EEG Data</title>
+      <link>https://arashhs.github.io/publication/neurognn-pakdd/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://arashhs.github.io/publication/neurognn-pakdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Wearables for Health (W4H) Toolkit for Acquisition, Storage, Analysis and Visualization of Data from Various Wearable Devices</title>
       <link>https://arashhs.github.io/publication/w4h-icde/</link>
-      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://arashhs.github.io/publication/w4h-icde/</guid>
       <description></description>
     </item>
